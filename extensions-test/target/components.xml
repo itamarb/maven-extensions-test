@@ -1,0 +1,18 @@
+<component-set>
+  <components>
+    <component>
+      <role>org.apache.maven.AbstractMavenLifecycleParticipant</role>
+      <role-hint>beer</role-hint>
+      <implementation>BeerMavenLifecycleParticipant</implementation>
+      <description></description>
+      <isolated-realm>false</isolated-realm>
+      <requirements>
+        <requirement>
+          <role>org.codehaus.plexus.logging.Logger</role>
+          <role-hint></role-hint>
+          <field-name>mLog</field-name>
+        </requirement>
+      </requirements>
+    </component>
+  </components>
+</component-set>
