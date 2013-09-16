@@ -43,11 +43,11 @@
         </pluginManagement>
         
     <extensions>
-    <extension>
+ <!--   <extension>
          <groupId>org.apache.maven.extensions</groupId>
          <artifactId>beer-maven-lifecycle</artifactId>
          <version>1.0-SNAPSHOT</version>
-       </extension>
+       </extension> -->
        <!-- 
 <extension>
          <groupId>extention.test</groupId>
