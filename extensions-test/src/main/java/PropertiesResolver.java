@@ -55,7 +55,7 @@ public class PropertiesResolver extends AbstractExecutionListener {
     }
 
     private void generateResolvedPom(MavenProject project) {
-        mLog.debug("Resolving properties in pom for project: " + project.getName() + " ("
+        mLog.error("**** Resolving properties in pom for project: " + project.getName() + " ("
                 + project.getGroupId() + ":" + project.getArtifactId() + ")");
 
         String buildDir = project.getBuild().getDirectory();
