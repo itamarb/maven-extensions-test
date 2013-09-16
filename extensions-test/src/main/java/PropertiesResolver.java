@@ -94,7 +94,7 @@ public class PropertiesResolver extends AbstractExecutionListener {
             file.getParentFile().mkdirs();
             fileOutputStream = new FileOutputStream(file);
             outputter.output(doc, fileOutputStream);
-            mLog.debug("Writing file: " + file.getAbsolutePath());
+            mLog.error("*** Writing file: " + file.getAbsolutePath());
             fileOutputStream.flush();
             fileOutputStream.close();
             project.setFile(file);
